@@ -1,0 +1,11 @@
+
+> backend@1.0.0 start
+> npx ts-node src/index.ts
+
+Server is running on http://localhost:3001
+Ollama API Response: { error: "model 'phi-2' not found" }
+Error generating responses: TypeError: Cannot read properties of undefined (reading 'split')
+    at /home/dipesh/Downloads/NO_Machine/backend/src/index.ts:42:46
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/dipesh/Downloads/NO_Machine/backend/src/index.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
